@@ -38,9 +38,9 @@ public class Main {
         int digit5 = Integer.parseInt(fifth);
         int total = digit1 + digit2 + digit3 + digit4 + digit5;
 
-        do {
+        while (total > threshold) {
             threshold = threshold + 10;
-        } while (total > threshold);
+        }
 
          cDigit = threshold - total;
 
