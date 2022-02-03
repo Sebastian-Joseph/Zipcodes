@@ -29,6 +29,7 @@ public class Main {
 
 
         //error detection
+
         int cDigit = 0;
         int threshold = 10;
         int digit1 = Integer.parseInt(first);
@@ -116,6 +117,7 @@ public class Main {
         }
 
         //transfer to binary
+
         switch(first) {
             case "0":
                 first = "11000";
